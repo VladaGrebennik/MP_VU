@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_view_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:elevation="100dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/audio_time"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/audio_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/audio_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <!--android:background="#00bcd4"-->
+    <TextView
+        android:id="@+id/audio_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="teASDAFxt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold|italic"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="@dimen/margin_padding_small"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/list_row"-->
+    <!--android:layout_marginTop="@dimen/margin_padding_tiny"-->
+    <!--android:layout_marginBottom="@dimen/margin_padding_tiny"-->
+    <!--android:background="@drawable/background_selector">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/note_image"-->
+        <!--android:layout_width="80dip"-->
+        <!--android:layout_height="80dip"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:src="@drawable/ic_android"-->
+        <!--android:contentDescription="@string/image_title"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_view_note_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="sans-serif-bold"-->
+        <!--android:layout_toEndOf="@id/note_image"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:textSize="@dimen/text_size_xxnormal" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_view_note_date"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="sans-serif-light"-->
+            <!--android:textStyle="italic"-->
+            <!--android:layout_marginEnd="10dp"-->
+            <!--android:textColor="?android:attr/textColorSecondary"-->
+            <!--android:textSize="@dimen/text_size_normal" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/severity_image"-->
+            <!--android:layout_width="40dip"-->
+            <!--android:layout_height="40dip"-->
+            <!--android:layout_marginTop="@dimen/margin_padding_normal"-->
+            <!--android:src="@drawable/ic_priority_low"-->
+            <!--android:contentDescription="@string/image_title"-->
+            <!--android:layout_gravity="end"/>-->
+    <!--</LinearLayout>-->
+
+<!--</RelativeLayout>-->

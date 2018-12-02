@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music player</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_content">Enter Content</string>
+    <string name="title_home">Home</string>
+    <string name="action_add">Add note</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_addition">Note addition</string>
+    <string name="title_edition">Note edition</string>
+    <string name="note_saved">Note saved</string>
+    <string name="note_edited">Note edited</string>
+    <string name="required_title">Title is required</string>
+    <string name="required_content">Content is required</string>
+    <string name="menu_filter_content">Filtering by content</string>
+    <string name="menu_search_content">Searching by content</string>
+    <string name="menu_filter_severity">Filter by severity</string>
+    <string name="image_title">Image</string>
+    <string name="set_datetime">Set</string>
+    <string name="button_date_time">Date and time</string>
+    <string name="button_choose_image">Choose image:</string>
+    <string name="single_note">Note</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete </string>
+    <string name="are_you_sure">Are you sure you want to delete the note </string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="deletion_prohibition">Deletion while searching is prohibited!</string>
+
+    <string name="severity">Severity:</string>
+    <string name="title">Title:</string>
+    <string name="date_destination">Destination date:</string>
+    <string name="date_created">Created date:</string>
+    <string name="date_modified">Last modified:</string>
+    <string name="content">Content:</string>
+    <string name="fake_content">Some content</string>
+
+    <string-array name="severity_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+</resources>

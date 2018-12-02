@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Замітки</string>
+    <string name="enter_title">Введіть заголовок</string>
+    <string name="enter_content">Введіть зміст</string>
+    <string name="title_home">Дім</string>
+    <string name="action_add">Додати замітку</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="title_notes">Замітки</string>
+    <string name="title_addition">Додавання замітки</string>
+    <string name="title_edition">Редагування замітки</string>
+    <string name="note_saved">Замітка збережена</string>
+    <string name="note_edited">Замітка відредагована</string>
+    <string name="required_title">Заголовок обов\'язковий</string>
+    <string name="required_content">Зміст обов\'язковий</string>
+    <string name="menu_filter_content">Фільтрація за змістом</string>
+    <string name="menu_search_content">Пошук за змістом</string>
+    <string name="menu_filter_severity">Фільтрація за пріорітетом</string>
+    <string name="image_title">Зображення</string>
+    <string name="set_datetime">Встановити</string>
+    <string name="button_date_time">Дата та час</string>
+    <string name="button_choose_image">Обрати зображення</string>
+
+    <string name="severity">Важливість:</string>
+    <string name="title">Заголовок:</string>
+    <string name="date_destination">Дата призначення:</string>
+    <string name="date_created">Дата створення:</string>
+    <string name="date_modified">Дата модифікації:</string>
+    <string name="content">Зміст:</string>
+    <string name="fake_content">Випадковий зміст</string>
+    <string name="single_note">Замітка</string>
+    <string name="search">Пошук</string>
+    <string name="delete">Видалити </string>
+    <string name="are_you_sure">Ви впевнені що хочете видалити замітку </string>
+    <string name="yes">Так</string>
+    <string name="cancel">Відміна</string>
+    <string name="deletion_prohibition">Видалення під час пошуку заборонене!</string>
+
+    <string-array name="severity_array">
+        <item>Низький</item>
+        <item>Середній</item>
+        <item>Високий</item>
+    </string-array>
+
+</resources>
